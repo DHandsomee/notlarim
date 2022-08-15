@@ -1,0 +1,5 @@
+Provides/AppServiceProvides altına bunu ekle
+
+Tüm view'lerde "Categories" çalışması için
+
+view()->share('categories', Category::orderby('id', 'ASC')->get());
